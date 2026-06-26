@@ -1,0 +1,19 @@
+{
+    "name": "Leon Adblocker",
+    "version": "1.0",
+    "description": "A adblocker extension for Chrome that is built through a YouTube tutorial[DEVSTAGE]",
+    "permissions": [
+        "webRequest",
+        "webRequestBlocking",
+        "<all_urls>"
+    ],
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "icons": {
+        "16": "icons/16.png",
+        "48": "icons/48.png",
+        "128": "icons/128.png"
+    },
+    "manifest_version": 2
+}
